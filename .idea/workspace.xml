@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/common-exceptions/src/main/java/pe/edu/unfv/microservices/commonexceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/common-exceptions/src/main/java/pe/edu/unfv/microservices/commonexceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/exceptions/CustomerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/exceptions/CustomerExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +57,11 @@
     "last_opened_file_path": "C:/Users/Papá Eleazar/Documents/ecommerce/config-server/src/main/resources/config",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">

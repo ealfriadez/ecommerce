@@ -10,7 +10,7 @@ import pe.edu.unfv.microservices.commonexceptions.GlobalExceptionHandler;
 
 import java.util.HashMap;
 
-@RestControllerAdvice(basePackages = "pe.edu.unfv.microservices.customer-microservice")
+@RestControllerAdvice(basePackages = "pe.edu.unfv.microservices.customermicroservice")
 @Primary
 public class CustomerExceptionHandler extends GlobalExceptionHandler {
 
