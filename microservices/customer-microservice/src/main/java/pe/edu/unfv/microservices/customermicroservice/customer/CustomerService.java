@@ -3,6 +3,7 @@ package pe.edu.unfv.microservices.customermicroservice.customer;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import pe.edu.unfv.microservices.customermicroservice.exceptions.CustomerNotFoundException;
 
 import java.util.List;
 
@@ -23,7 +24,11 @@ public class CustomerService {
 
         return repository.findById(customerId)
                 .map(mapper::toCustomerResponse)
-                .orElseThrow();
+                .orElseThrow(
+                        ()-> new CustomerNotFoundException(
+                                String.format("Customer with id %s not found", customerId)
+                        )
+                );
     }
 
     public List<CustomerResponse> getCustomers() {
@@ -36,7 +41,11 @@ public class CustomerService {
     public void deleteCustomerById(String customerId) {
 
         repository.findById(customerId)
-                .orElseThrow();
+                .orElseThrow(
+                        ()-> new CustomerNotFoundException(
+                                String.format("Customer with id %s not found", customerId)
+                        )
+                );
         repository.deleteById(customerId);
     }
 }

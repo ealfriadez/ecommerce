@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/customer-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/common-exceptions/pom.xml" />
       </list>
     </option>
   </component>
