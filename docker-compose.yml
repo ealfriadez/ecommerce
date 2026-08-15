@@ -11,8 +11,24 @@ services:
     #  - MONGO_INITDB_ROOT_USERNAME=root
     #  - MONGO_INITDB_ROOT_PASSWORD=pass
 
+  postgresql:
+    image: postgres
+    container_name: postgresql_db
+    restart: always
+    environment:
+      POSTGRES_DB: product_db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres:/data/postgres
+    networks:
+      - microservices
+
 volumes:
   mongo:
+  postgres:
 
 networks:
   microservices:
