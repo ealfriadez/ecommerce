@@ -23,4 +23,21 @@ public class CategoryController {
     public ResponseEntity<Integer> createCategory(@Valid @RequestBody CategoryRequest request){
         return ResponseEntity.ok(service.createCategory(request));
     }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteCategory(@PathVariable("id") Integer id) throws Exception {
+        service.deleteCategory(id);
+        return ResponseEntity.accepted().build();
+    }
+
+    @PutMapping()
+    public ResponseEntity<Void> updateCategory(@Valid @RequestBody CategoryRequest request){
+        service.updateCategory(request);
+        return ResponseEntity.accepted().build();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<CategoryService> getCategoryById(@PathVariable("id") Integer id){
+        return ResponseEntity.ok(service.getCategoryById(id));
+    }
 }

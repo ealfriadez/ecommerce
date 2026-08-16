@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/common-exceptions/src/main/java/pe/edu/unfv/microservices/commonexceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/common-exceptions/src/main/java/pe/edu/unfv/microservices/commonexceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/exceptions/CustomerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/exceptions/CustomerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/ProductMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.CustomerMicroserviceApplication.executor": "Run",
-    "Spring Boot.DiscoveryServerApplication.executor": "Run",
-    "Spring Boot.ProductMicroserviceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Papá Eleazar/Documents/ecommerce/config-server/src/main/resources/config",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CustomerMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Papá Eleazar/Documents/ecommerce/config-server/src/main/resources/config&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pe.edu.unfv.microservices.productmicroservice.exceptions" />
+      <recent name="pe.edu.unfv.microservices.productmicroservice.product" />
       <recent name="pe.edu.unfv.microservices.productmicroservice.category" />
       <recent name="pe.edu.unfv.microservices.customermicroservice.exceptions" />
       <recent name="pe.edu.unfv.microservices.customermicroservice.customer" />
@@ -81,6 +78,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Papá Eleazar\Documents\ecommerce\config-server\src\main\resources\config" />
       <recent name="C:\Users\Papá Eleazar\Documents\ecommerce" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pe.edu.unfv.microservices.productmicroservice.product" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProductMicroserviceApplication">

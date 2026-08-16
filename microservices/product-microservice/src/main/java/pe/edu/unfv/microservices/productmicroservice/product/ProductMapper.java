@@ -1,11 +1,12 @@
 package pe.edu.unfv.microservices.productmicroservice.product;
 
 import org.springframework.stereotype.Service;
+import pe.edu.unfv.microservices.productmicroservice.category.Category;
 
 @Service
 public class ProductMapper {
 
-    public static ProductResponse toProductResponse(Product product) {
+    public ProductResponse toProductResponse(Product product) {
         return new ProductResponse(
                 product.getId(),
                 product.getName(),
@@ -17,5 +18,19 @@ public class ProductMapper {
                 product.getCategory().getName(),
                 product.getCategory().getDescription()
         );
+    }
+
+    public Product toProduct(ProductRequest request) {
+        return Product.builder()
+                .id(request.id())
+                .name(request.name())
+                .description(request.description())
+                .price(request.price())
+                .stock(request.stock())
+                .imageUrl(request.imageUrl())
+                .category(Category.builder()
+                        .id(request.categoryId())
+                        .build())
+                .build();
     }
 }
