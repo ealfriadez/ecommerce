@@ -11,7 +11,7 @@ import pe.edu.unfv.microservices.commonexceptions.GlobalExceptionHandler;
 
 import java.util.HashMap;
 
-@RestControllerAdvice(basePackages = "com.irojas.microservices.productmicroservice")
+@RestControllerAdvice(basePackages = "pe.edu.unfv.microservices.productmicroservice")
 @Primary
 @Slf4j
 public class ProductExceptionHandler extends GlobalExceptionHandler {

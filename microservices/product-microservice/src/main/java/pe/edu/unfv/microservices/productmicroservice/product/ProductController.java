@@ -48,4 +48,16 @@ public class ProductController {
     public ResponseEntity<ProductResponse> getProductById(@PathVariable("id") Integer id) {
         return ResponseEntity.ok(service.getProductById(id));
     }
+
+    @PostMapping("/purchase")
+    public ResponseEntity<Void> purchaseProduct(@Valid @RequestBody List<ProductQuantityRequest> request) {
+        service.purchaseProduct(request);
+        return ResponseEntity.ok().build();
+    }
+
+    @PostMapping("/restock")
+    public ResponseEntity<Void> updateProductStock(@Valid @RequestBody List<ProductQuantityRequest> request) {
+        service.restockProduct(request);
+        return ResponseEntity.ok().build();
+    }
 }

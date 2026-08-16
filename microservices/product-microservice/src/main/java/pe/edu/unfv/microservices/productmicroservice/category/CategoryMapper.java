@@ -2,6 +2,7 @@ package pe.edu.unfv.microservices.productmicroservice.category;
 
 import org.springframework.stereotype.Service;
 import pe.edu.unfv.microservices.productmicroservice.product.ProductMapper;
+import pe.edu.unfv.microservices.productmicroservice.product.ProductResponse;
 
 @Service
 public class CategoryMapper {
@@ -19,7 +20,17 @@ public class CategoryMapper {
                 category.getName(),
                 category.getDescription(),
                 category.getProducts().stream()
-                        .map(ProductMapper::toProductResponse)
+                        .map(product -> new ProductResponse(
+                                product.getId(),
+                                product.getName(),
+                                product.getDescription(),
+                                product.getPrice(),
+                                product.getStock(),
+                                product.getImageUrl(),
+                                product.getCategory().getId(),
+                                product.getCategory().getName(),
+                                product.getCategory().getDescription(
+                                )))
                         .toList()
         );
     }

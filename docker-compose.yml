@@ -3,24 +3,29 @@ services:
     image: mongo
     container_name: mongo_db
     ports:
-      - "27017:27017"
+      - "${MONGO_DB_PORT}:27017"
     volumes:
       - mongo:/data/db
     restart: always
-    #environment:
+    environment:
+      - MONGO_INITDB_DATABASE=${CUSTOMER_DB_NAME}
     #  - MONGO_INITDB_ROOT_USERNAME=root
     #  - MONGO_INITDB_ROOT_PASSWORD=pass
+    networks:
+      - microservices
 
   postgresql:
     image: postgres
     container_name: postgresql_db
     restart: always
     environment:
-      POSTGRES_DB: product_db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: ${PRODUCT_DB_NAME}
+      POSTGRES_USER: ${POSTGRESQL_DB_USERNAME}
+      POSTGRES_PASSWORD: ${POSTGRESQL_DB_PASSWORD}
+      PGDATA: /data/postgres
+
     ports:
-      - "5432:5432"
+      - "${POSTGRESQL_DB_PORT}:5432"
     volumes:
       - postgres:/data/postgres
     networks:
