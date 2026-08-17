@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/product-microservice.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/product-microservice.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/category/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/exceptions/ProductExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/exceptions/ProductExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/customer-microservice.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/customer-microservice.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,9 +142,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProductMicroserviceApplication" />
+        <item itemvalue="Spring Boot.CustomerMicroserviceApplication" />
         <item itemvalue="Spring Boot.DiscoveryServerApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.CustomerMicroserviceApplication" />
       </list>
     </recent_temporary>
   </component>
