@@ -1,12 +1,12 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customer_db
+      uri: ${SPRING_MONGODB_URI}
 
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:8761/eureka/
+      default-zone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka/}
 
 logging:
   level:
