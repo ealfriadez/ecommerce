@@ -5,6 +5,7 @@ WORKDIR /app
 RUN apk add --no-cache maven
 
 COPY . .
+
 RUN mvn clean package -DskipTests -pl discovery-server -am
 
 FROM eclipse-temurin:25-jre-alpine
