@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +200,8 @@
       <option name="presentableId" value="Default" />
       <updated>1786466101114</updated>
       <workItem from="1786973179487" duration="15300000" />
-      <workItem from="1787055191451" duration="14494000" />
+      <workItem from="1787055191451" duration="15252000" />
+      <workItem from="1787077244053" duration="4620000" />
     </task>
     <servers />
   </component>
