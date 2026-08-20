@@ -4,18 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>pe.edu.unfv</groupId>
-        <artifactId>ecommerce</artifactId>
+        <artifactId>microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <groupId>pe.edu.unfv.microservices</groupId>
     <artifactId>cart-microservice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>cart-microservice</name>
-    <properties>
-        <java.version>25</java.version>
-        <spring-cloud.version>2025.1.2</spring-cloud.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,6 +33,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mongodb-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>pe.edu.unfv.microservices</groupId>
+            <artifactId>common-exceptions</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <dependencyManagement>

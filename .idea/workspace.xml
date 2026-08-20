@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/cart-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/cart-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/cart-microservice/src/main/java/pe/edu/unfv/microservices/cartmicroservice/CartMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/cart-microservice/src/main/java/pe/edu/unfv/microservices/cartmicroservice/CartMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/cart-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/cart-microservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/src/main/java/pe/edu/unfv/microservices/customermicroservice/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/exceptions/ProductExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/src/main/java/pe/edu/unfv/microservices/productmicroservice/exceptions/ProductExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +68,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "feature-cart-microservices",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Papá Eleazar/Documents/ecommerce/config-server/src/main/resources/config",
+    "last_opened_file_path": "D:/PRACTICAS/projectsJava/ecommerce/microservices/cart-microservice/src/main/java/pe/edu/unfv/microservices/cartmicroservice/exceptions",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -83,13 +84,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pe.edu.unfv.microservices.cartmicroservice.cart" />
+      <recent name="pe.edu.unfv.microservices.cartmicroservice.cartItem" />
+      <recent name="pe.edu.unfv.microservices.cartmicroservice.product" />
+      <recent name="pe.edu.unfv.microservices.cartmicroservice.customer" />
       <recent name="pe.edu.unfv.microservices.productmicroservice.exceptions" />
-      <recent name="pe.edu.unfv.microservices.productmicroservice.product" />
-      <recent name="pe.edu.unfv.microservices.productmicroservice.category" />
-      <recent name="pe.edu.unfv.microservices.customermicroservice.exceptions" />
-      <recent name="pe.edu.unfv.microservices.customermicroservice.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PRACTICAS\projectsJava\ecommerce\microservices\cart-microservice\src\main\java\pe\edu\unfv\microservices\cartmicroservice\exceptions" />
       <recent name="C:\Users\Papá Eleazar\Documents\ecommerce\config-server\src\main\resources\config" />
       <recent name="C:\Users\Papá Eleazar\Documents\ecommerce\microservices\cart-microservice" />
       <recent name="C:\Users\Papá Eleazar\Documents\ecommerce" />
@@ -123,6 +125,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="CartMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cart-microservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.unfv.microservices.cartmicroservice.CartMicroserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="config-server" />

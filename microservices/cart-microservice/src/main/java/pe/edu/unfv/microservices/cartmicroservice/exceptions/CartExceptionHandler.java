@@ -1,5 +1,6 @@
-package pe.edu.unfv.microservices.productmicroservice.exceptions;
+package pe.edu.unfv.microservices.cartmicroservice.exceptions;
 
+import feign.FeignException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Primary;
 import org.springframework.http.HttpStatus;
@@ -8,39 +9,35 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import pe.edu.unfv.microservices.commonexceptions.ErrorResponse;
 import pe.edu.unfv.microservices.commonexceptions.GlobalExceptionHandler;
-
 import java.util.HashMap;
 
-@RestControllerAdvice(basePackages = "pe.edu.unfv.microservices.productmicroservice")
+@RestControllerAdvice(basePackages = "pe.edu.unfv.microservices.cartmicroservice")
 @Primary
 @Slf4j
-public class ProductExceptionHandler extends GlobalExceptionHandler {
+public class CartExceptionHandler extends GlobalExceptionHandler {
 
-    @ExceptionHandler(CategoryException.class)
-    public ResponseEntity<ErrorResponse> handle (CategoryException exception)
+    @ExceptionHandler(CartException.class)
+    public ResponseEntity<ErrorResponse> handle (CartException exception)
     {
-
         var errors = new HashMap<String, String>();
-        var fieldName = "Category-service";
+        var fieldName = "cart-service";
         errors.put(fieldName, exception.getMessage());
 
-        log.warn("Category error: {}", exception.toString());
+        log.warn("Cart error: {}", exception.toString());
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorResponse(errors));
 
     }
 
-    @ExceptionHandler(ProductException.class)
-    public ResponseEntity<ErrorResponse> handle (ProductException exception)
+    @ExceptionHandler(FeignException.class)
+    public ResponseEntity<ErrorResponse> handleFeignException (FeignException exception)
     {
-
         var errors = new HashMap<String, String>();
-        var fieldName = "product-service";
+        var fieldName = "Error communicating with microservice";
         errors.put(fieldName, exception.getMessage());
 
-        log.warn("Product error: {}", exception.toString());
+        log.warn("Error communicating with microservice: {}", exception.toString());
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorResponse(errors));
-
     }
 }
