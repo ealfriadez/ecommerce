@@ -1,4 +1,4 @@
-package pe.edu.unfv.microservices.cartmicroservice.cart;
+package pe.edu.unfv.microservices.cartmicroservice.cartItem;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

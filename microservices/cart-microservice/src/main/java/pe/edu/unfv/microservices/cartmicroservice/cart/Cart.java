@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import pe.edu.unfv.microservices.cartmicroservice.cartItem.CartItem;
 
 import java.util.List;
 

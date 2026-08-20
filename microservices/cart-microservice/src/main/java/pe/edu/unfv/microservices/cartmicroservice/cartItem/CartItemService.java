@@ -3,7 +3,6 @@ package pe.edu.unfv.microservices.cartmicroservice.cartItem;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pe.edu.unfv.microservices.cartmicroservice.cart.Cart;
-import pe.edu.unfv.microservices.cartmicroservice.cart.CartItem;
 import pe.edu.unfv.microservices.cartmicroservice.cart.CartRepository;
 import pe.edu.unfv.microservices.cartmicroservice.customer.CustomerClient;
 import pe.edu.unfv.microservices.cartmicroservice.customer.CustomerResponse;
