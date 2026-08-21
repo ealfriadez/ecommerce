@@ -7,6 +7,20 @@
     <list default="true" id="13c434b5-f2b6-4211-9770-70f0388f5542" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/api-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/cart-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/cart-microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/discovery-server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/discovery-server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/product-microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/cart-microservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/cart-microservice/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/customer-microservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/customer-microservice/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-microservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-microservice/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +75,7 @@
     &quot;Spring Boot.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ProductMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature-api-gateway&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature-Observabilidad+Actuator+Prometheus+Grafana&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Papá Eleazar/Documents/ecommerce/api-gateway&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
@@ -203,8 +217,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33813.55" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.33813.55" />
       </set>
     </attachedChunks>
   </component>
@@ -218,6 +232,7 @@
       <workItem from="1786973179487" duration="15300000" />
       <workItem from="1787055191451" duration="15252000" />
       <workItem from="1787077244053" duration="4620000" />
+      <workItem from="1787320814386" duration="5005000" />
     </task>
     <servers />
   </component>
